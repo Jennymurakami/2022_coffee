@@ -15,6 +15,12 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 414px) {
+    .banner {
+        background-image: url(img/cellphonebanner.jpg);
+    }
+}
+
 nav {
     padding: 15px 0;
 }
